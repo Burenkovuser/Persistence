@@ -13,6 +13,7 @@
 		FBC4EFA61EEE558C009E768B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC4EFA41EEE558C009E768B /* Main.storyboard */; };
 		FBC4EFA81EEE558C009E768B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC4EFA71EEE558C009E768B /* Assets.xcassets */; };
 		FBC4EFAB1EEE558C009E768B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC4EFA91EEE558C009E768B /* LaunchScreen.storyboard */; };
+		FBC4EFB41EEEA978009E768B /* FourLines.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4EFB31EEEA978009E768B /* FourLines.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FBC4EFA71EEE558C009E768B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC4EFAA1EEE558C009E768B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC4EFAC1EEE558C009E768B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC4EFB21EEEA978009E768B /* FourLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourLines.h; sourceTree = "<group>"; };
+		FBC4EFB31EEEA978009E768B /* FourLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourLines.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				FBC4EF9F1EEE558C009E768B /* AppDelegate.m */,
 				FBC4EFA11EEE558C009E768B /* ViewController.h */,
 				FBC4EFA21EEE558C009E768B /* ViewController.m */,
+				FBC4EFB21EEEA978009E768B /* FourLines.h */,
+				FBC4EFB31EEEA978009E768B /* FourLines.m */,
 				FBC4EFA41EEE558C009E768B /* Main.storyboard */,
 				FBC4EFA71EEE558C009E768B /* Assets.xcassets */,
 				FBC4EFA91EEE558C009E768B /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC4EFA31EEE558C009E768B /* ViewController.m in Sources */,
+				FBC4EFB41EEEA978009E768B /* FourLines.m in Sources */,
 				FBC4EFA01EEE558C009E768B /* AppDelegate.m in Sources */,
 				FBC4EF9D1EEE558C009E768B /* main.m in Sources */,
 			);
